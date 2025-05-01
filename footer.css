@@ -1,0 +1,154 @@
+footer {
+    background-color: #ffffff;
+    color: #2a7a4f;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 60px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  .footer-newsletter,
+.footer-socials {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer-newsletter h3,
+.footer-socials h3 {
+  font-size: 18px;
+  color: #2a7a4f;
+  margin-bottom: 8px;
+}
+
+.footer-newsletter input[type="email"] {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 220px;
+}
+
+.footer-newsletter button {
+  padding: 8px 16px;
+  background-color: #2a7a4f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+  background-color: #1e5c3a;
+}
+
+.footer-socials a {
+  margin: 0 10px;
+  color: #2a7a4f;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-socials a:hover {
+  color: #1e5c3a;
+}
+.partners-carousel {
+  padding: 60px 20px;
+  background-color: #f6fefb;
+  overflow: hidden;
+  text-align: center;
+}
+
+.partners-carousel h2 {
+  font-size: 24px;
+  color: #2a7a4f;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scrollLogos 20s linear infinite;
+  gap: 40px;
+}
+
+.carousel-slide img {
+  height: 60px;
+  width: auto;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+.carousel-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+.final-cta {
+  background: linear-gradient(135deg, #e6f4ec, #f6fefb);
+  padding: 80px 20px;
+  text-align: center;
+  border-top: 1px solid #d2e9da;
+  border-bottom: 1px solid #d2e9da;
+}
+
+.final-cta h2 {
+  font-size: 28px;
+  color: #2a7a4f;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.final-cta p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2a7a4f;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-btn:hover {
+  background-color: #1e5c3a;
+  transform: translateY(-2px);
+}
+
+
+@keyframes scrollLogos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 600px) {
+  .final-cta h2 {
+    font-size: 22px;
+  }
+
+  .final-cta p {
+    font-size: 14px;
+  }
+
+  .cta-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
